@@ -103,12 +103,6 @@
       width: 56px;
       height: 56px;
     }
-    // svg{
-    //   width: 24px;
-    //   height: 24px;
-    //   fill: rgba(0,0,0,0.8);
-    //   vertical-align: middle;
-    // }
   }
   .datepicker_prev{
     float: left;

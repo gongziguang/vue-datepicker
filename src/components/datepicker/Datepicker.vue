@@ -38,6 +38,7 @@ export default {
     // 显示datepicker
     showDatepicker () {
       this.isVisible = true
+    // 如果点击了非datepicker区域，datepicker关闭
       setTimeout(() => document.addEventListener('click', this.hideDatepicker), 0)
     },
     // 隐藏datepicker
