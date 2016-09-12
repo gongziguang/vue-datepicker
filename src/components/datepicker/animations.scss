@@ -1,0 +1,38 @@
+// 水平运动
+.slidev-transition{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all .3s;
+  transform: translateX(0);
+  opacity: 1;
+}
+.slidev-leave, .direction-prev .slidev-enter{
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.slidev-enter, .direction-prev .slidev-leave{
+  transform: translateX(100%);
+  opacity: 0;
+}
+// 垂直运动
+.slideh-transition{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all .3s;
+  transform: translateY(0);
+  opacity: 1;
+}
+.slideh-leave, .direction-prev .slideh-enter{
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.slideh-enter, .direction-prev .slideh-leave{
+  transform: translateY(100%);
+  opacity: 0;
+}
