@@ -1,6 +1,7 @@
 # datepicker
 
 > A Vue.js datepicker
+
 ![](https://github.com/gongziguang/vue-datepicker/blob/master/static/datepicker.png)
 
 ## Build Setup
